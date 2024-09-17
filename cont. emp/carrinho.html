@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupaKeys - Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SupaKeys</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pagina2.html">Mais Jogos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="recem-adicionados.html">Recém Adicionados</a></li>
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <a href="carrinho.html" class="cart-icon" id="cartIcon">🛒 Carrinho (<span id="cartCount">0</span>)</a>
+        </div>
+    </header>
+
+    <div class="cart-page">
+        <h2>Seu Carrinho</h2>
+
+        <div class="cart-item">
+            <img src="game1.jpg" alt="Jogo 1">
+            <div class="cart-item-info">
+                <h4>Nome do Jogo 1</h4>
+                <p class="price">R$ 39,99</p>
+            </div>
+            <div class="cart-item-controls">
+                <input type="number" value="1" min="1">
+                <button>Remover</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="game2.jpg" alt="Jogo 2">
+            <div class="cart-item-info">
+                <h4>Nome do Jogo 2</h4>
+                <p class="price">R$ 59,99</p>
+            </div>
+            <div class="cart-item-controls">
+                <input type="number" value="2" min="1">
+                <button>Remover</button>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="game3.jpg" alt="Jogo 3">
+            <div class="cart-item-info">
+                <h4>Nome do Jogo 3</h4>
+                <p class="price">R$ 29,99</p>
+            </div>
+            <div class="cart-item-controls">
+                <input type="number" value="1" min="1">
+                <button>Remover</button>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Resumo do Carrinho</h3>
+            <p>Total: <span class="total">R$ 179,96</span></p>
+            <a href="checkout.html" class="btn-checkout">Finalizar Compra</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SupaKeys - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

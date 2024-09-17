@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupaKeys - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SupaKeys</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pagina2.html">Mais Jogos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="recem-adicionados.html">Recém Adicionados</a></li>
+                
+            </ul>
+        </nav>
+        <div class="search-cart">
+            <input type="text" placeholder="Buscar jogos..." id="searchBox">
+            <a href="carrinho.html" class="cart-icon" id="cartIcon">🛒 Carrinho (<span id="cartCount">0</span>)</a>
+        </div>
+            
+    </header>
+
+    <div class="banner">
+        <div class="banner-content">
+            <h2>As melhores ofertas em jogos digitais</h2>
+            <p>Desbloqueie seus jogos favoritos com segurança e rapidez!</p>
+            <a href="ofertas.html" class="btn">Ver Ofertas</a>
+        </div>
+    </div>
+
+    <section class="games">
+        <h3>Jogos em Destaque</h3>
+        <div class="games-list">
+            <!-- Lista de Jogos em Destaque -->
+            <div class="game-item">
+                <img src="game1.jpg" alt="Jogo 1">
+                <p>Nome do Jogo 1</p>
+                <span class="price">R$ 39,99</span>
+                <a href="#" class="btn add-to-cart">Comprar</a>
+                <div class="platform-buttons">
+                    <a href="#" class="btn-platform epic-games">Epic Games</a>
+                </div>
+            </div>
+            <div class="game-item">
+                <img src="game2.jpg" alt="Jogo 2">
+                <p>Nome do Jogo 2</p>
+                <span class="price">R$ 59,99</span>
+                <a href="#" class="btn add-to-cart">Comprar</a>
+                <div class="platform-buttons">
+                    <a href="#" class="btn-platform steam">Steam</a>
+                </div>
+            </div>
+            <div class="game-item esgotado">
+                <img src="game3.jpg" alt="Jogo 3">
+                <p>Nome do Jogo 3</p>
+                <span class="esgotado-text">Esgotado</span>
+                <a href="#" class="btn disabled">Indisponível</a>
+            </div>
+            <div class="game-item">
+                <img src="game4.jpg" alt="Jogo 4">
+                <p>Nome do Jogo 4</p>
+                <span class="price">R$ 79,99</span>
+                <a href="#" class="btn add-to-cart">Comprar</a>
+                <div class="platform-buttons">
+                    <a href="#" class="btn-platform microsoft">Microsoft Store</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SupaKeys - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
